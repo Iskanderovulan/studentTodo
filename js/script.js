@@ -27,7 +27,7 @@ const renderTodos =()=>{
     output.innerHTML=''
     todos.map(todo => {
         let block = document.createElement('div')
-        block.style.backgroundColor = todo.status ? 'green' : 'coral'
+        block.style.backgroundColor = todo.status ? 'green' : 'aqua'
 
         let mess = document.createElement('h2')
         let del = document.createElement('button')
